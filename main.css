@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+* {
+    font-size: 24px;
+    font-family: 'quicksand', 'sans-serif'
+}
+
+#overflow{
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 7px;
+    width: 50%;
+    height: 250px;
+    overflow: scroll;
+    border: 1px solid rgb(255, 255, 255, 90);
+    align-content: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(48, 170, 179);
+    color: white;
+  }
+
+  #box {
+    align-content: right;
+    width: 25%;
+    border: 15px solid rgb(48, 170, 179);
+    padding: 50px ;
+    margin: 20px;
+  }
+
+  #boxunderline{
+    align-content: right;
+    width: 150px;
+    border: 1px solid rgb(48, 170, 179);
+    padding: 2px;
+    border-width: 0px 0px 5px 0px;
+    margin: 5px;
+  }
+
+  .box {
+    background: rgb(48, 170, 179);
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .header {
+    border: 1px solid red;
+    padding: 15px;
+  }
+
+  /*boxes with the logos and descriptions of the sections*/
+.categories {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  float: "center";
+}
+/*the contents of the descriptions*/
+.descriptions {
+  color: black;
+  padding: 15px;
+  width: auto;
+  text-align: center;
+}
+.box1{
+  width: 33.3%;
+  color: rgb(15, 6, 6);
+  padding: 5px;
+  border: 7px solid rgb(48, 170, 179);
+}
